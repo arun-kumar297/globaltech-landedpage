@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.car-logo {
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.nav-bg {
+    background-color: #000000;
+}
+
+.shop-bg-container {
+    background-image: url("https://res.cloudinary.com/diyngo6q5/image/upload/v1687000252/pexels-mike-bird-120049_joq1a5.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+#About {
+    background-color: #000000;
+}
+
+#FollowUS {
+    background-color: #000000;
+}
+
+.explore-button {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    background-color: transparent;
+    width: 180px;
+    padding: 8px;
+    font-size: 25px;
+    border-color: #d0b200;
+    border-radius: 10px;
+    border-style: solid;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: color 0.5s;
+}
+
+.explore-button:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 120%;
+    height: 220%;
+    background-color: gold;
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.explore-button:hover:before {
+    top: -50%;
+    left: -10%;
+}
+
+.Luxury-main-heading {
+    font-family: "Lucida Console";
+    font-style: italic;
+    margin-bottom: 15px;
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.Luxury-main-heading:hover {
+    color: red;
+}
+
+.Luxury-main-para {
+    font-family: "Roboto";
+    margin-bottom: 15px;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Luxury-main-para:hover {
+    color: yellow;
+}
+
+.offer {
+    color: gold;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.logo {
+    border-style: solid;
+    border-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-family: "Lucida Console";
+}
+
+.nav-button {
+    background-color: #ffffff;
+}
+
+.about-image img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-items {
+    font-family: "Lucida Console";
+    color: #ffffff;
+}
+
+.ak-bg {
+    background-color: #000000;
+}
+
+
+.icon {
+    font-size: 28px;
+    margin: 3px;
+}
+
+.new-main-image {
+    background-image: url("https://res.cloudinary.com/diyngo6q5/image/upload/v1669459734/samples/food/stylish-bearded-hipster-male-sits-wooden-box-studio-dark-grey-background_ngnnuj.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+
+.new-main-heading {
+    font-family: "Lucida Console";
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.shop-button {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    background-color: black;
+    width: 150px;
+    padding: 8px;
+    font-size: 25px;
+    border-color: white;
+    border-style: solid;
+}
+
+.new-main-para {
+    font-family: "Lucida Console";
+    font-size: 26px;
+    color: white;
+}
+
+.item-para {
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+}
+
+.car-images {
+    width: 100%;
+    height: 30vh;
+    border-radius: 6px;
+}
+
+.car-images:hover {
+    transform: scale(0.8);
+}
+
+.car-name {
+    font-family: "Lucida Console";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.car-name:hover {
+    color: red;
+}
+
+.car-price {
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jeans-price:hover {
+    color: red;
+}
+
+.Journal-bg {
+    background-image: url('https://www.jamesedition.com/stories/wp-content/uploads/2023/05/Hyper-SUV-Showdown-5-942x628.jpeg');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.Buy-Now {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    background-color: black;
+}
+
+.subscribe-bg {
+    background-color: black;
+    padding: 25px;
+}
+
+.subscribe-heading {
+    font-family: "Lucida Console";
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.subscribe-para {
+    font-family: "Lucida Console";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.subscribe-button {
+    background-color: red;
+    color: #ffffff;
+    width: 140px;
+    padding: 8px;
+    font-family: "Lucida Console";
+}
+
+.footer-heading {
+    color: black;
+    font-family: "Lucida Console";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.food-munch-logo {
+    width: 100px;
+    height: 80px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section-text {
+    color: black;
+    font-family: "Lucida Console";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.hr-line {
+    background-color: black;
+    border-width: 2px;
+}
+
+.footer-copyright {
+    color: black;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon {
+    color: black;
+    font-size: 18px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.follow-us-icon-container:hover {
+    background-color: lightblue;
+}
+
+.icon {
+    color: #000000;
+    font-size: 35px;
+}
+
+.icon:hover {
+    transform: scale(0.9);
+}
+
+.footer-section {
+    background-color: #959ead;
+}
+
+.footer-section-mail-id {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
